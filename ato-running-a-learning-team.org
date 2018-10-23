@@ -1,0 +1,345 @@
+#+TITLE: Running an Effective Open Source Learning Team
+#+AUTHOR: Todd Jordan
+#+DATE: <2018-10-24 Wed>
+#+REVEAL_HLEVEL: 2
+#+REVEAL_THEME: solarized
+#+OPTIONS: num:nil toc:nil 
+#+OPTIONS: reveal_title_slide:nil reveal_slide_number:true reveal_history:true
+
+* Running an Effective Open Source Learning Team
+
+#+REVEAL_HTML:<h3> By Todd Jordan</h3><image src="images/teaching-tomster.png" style="height:200px;border-width:0;box-shadow:unset;">
+
+* How I Got Here
+#+REVEAL_HTML:<image src="images/lts-tomster.png" style="height:300px;border-width:0;box-shadow:unset;">
+#+REVEAL_HTML:<image src="images/raleigh-tomster.png" style="height:300px;border-width:0;box-shadow:unset;">
+#+REVEAL_HTML:<image src="images/teaching-tomster.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+** 
+
+#+REVEAL_HTML:<image src="images/q2.jpg" style="height:300px;border-width:0;box-shadow:unset;">
+#+BEGIN_QUOTE
+Our mission is to build stronger communities by strengthening their financial institutions
+#+END_QUOTE
+https://www.q2ebanking.com/careers
+* So What's a Learn Team?
+
+** Ember Learn Mission Statement
+
+#+BEGIN_QUOTE
+The mission of the Ember Learning Team is to empower
+Ember users to learn, build and teach. \\
+\\
+The team is responsible for keeping the guides and API documentation updated,
+and managing initiatives that support learning Ember.
+
+#+END_QUOTE
+
+** Not Just a Docs Team
+From the initial Ember Learn Team Charter: 
+
+#+BEGIN_QUOTE
+Documentation is just one part of how new users learn to use Ember. People start learning the second they land on the website homepage, or when they see a presentation at their local user group.
+#+END_QUOTE
+#+BEGIN_NOTES
+https://emberjs.com/blog/2016/05/19/introducing-subteams.html#toc_learning
+#+END_NOTES
+
+** Holistic Learning
+
+#+BEGIN_QUOTE
+...We want to make holistic learning a central part of Ember... this means thinking about how members of the community interact, how they get help, and how we introduce them to new features...
+#+END_QUOTE
+
+** A Learn Team Walks Alongside
+
+#+REVEAL_HTML:<image src="images/janet.gif" style="height:400px;border-width:0;box-shadow:unset;">
+
+** 
+    :PROPERTIES:
+    :reveal_background: ./images/funnel.png
+    :reveal_background_trans: slide
+    :END:
+
+#+BEGIN_NOTES
+-  Learners
+-  Practitioners
+-  New Contributors
+-  Regular Contributors
+-  Core Teams
+#+END_NOTES
+
+** A Learn Team Evolves
+
+*** 
+    :PROPERTIES:
+    :reveal_background: ./images/team-core.png
+    :reveal_background_trans: slide
+    :END:
+    
+#+BEGIN_NOTES
+Core team worked great, but team members tended to be focused on new features and development on the core library.
+One of the core members put a ton of work into documentation.  
+As the project grew and as more emphasis was put on documentation, a more formal group was needed.
+#+END_NOTES
+*** 
+    :PROPERTIES:
+    :reveal_background: ./images/team-subteam.png
+    :reveal_background_trans: slide
+    :END:
+
+#+BEGIN_NOTES
+So in 2016 we announced "sub teams", additional "official teams" to be responsible for development of core parts of ember
+outside is main architecture.
+- CLI 
+- Data
+- Learn 
+
+See https://emberjs.com/blog/2016/05/19/introducing-subteams.html
+
+"While the Ember CLI and Ember Data subteams should be self-explanatory, this one is the newest and may require some explanation.
+We intentionally did not call this subteam Documentation, because documentation is just one part of how new users learn to use Ember. People start learning the second they land on the website homepage, or when they see a presentation at their local user group.
+We want to make holistic learning a central part of Ember. In addition to good guides and API documentation, this means thinking about how members of the community interact, how they get help, and how we introduce them to new features added via the RFC process.
+The Learning Subteam is responsible for the website, the guides, the API docs and making sure the Core Team is aware of common pitfalls people hit, like confusing error messages or APIs. We will take this information and feed it back into the framework itself.
+The best documentation is the documentation you never have to write. By reducing complexity, making errors clearer, and smoothing the learning curve, we can help Ember reach an entirely new audience."
+#+END_NOTES
+*** 
+    :PROPERTIES:
+    :reveal_background: ./images/team-multicore.png
+    :reveal_background_trans: slide
+    :END:
+
+#+BEGIN_NOTES
+https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
+#+END_NOTES
+
+** A Learn Team is a Community
+
+*** 
+    :PROPERTIES:
+    :reveal_background: ./images/community-venn.png
+    :reveal_background_trans: slide
+    :END:
+
+*** Chat
+#+REVEAL_HTML:<img src="images/discord.png">
+#+BEGIN_NOTES
+    - dev-ember-learning(discord)
+    - people can ask questions/report issues about documentation
+    - team can publicize contrib opportunities
+    - learn team announcements
+
+#+END_NOTES
+
+*** Regular Contributors
+#+REVEAL_HTML:<img src="images/ember-times.png">
+#+BEGIN_NOTES
+    - Newsletter
+    - Project Owners
+    - Strike Teams
+#+END_NOTES
+
+*** Weekly Learn Team Meetings
+
+#+REVEAL_HTML:<image src="images/learning_team_2.png">
+#+BEGIN_NOTES
+    - Open to the public
+    - Notes Taken
+#+END_NOTES
+      
+*** Team Face to Face
+#+REVEAL_HTML:<image src="images/learning_team.jpg">
+
+#+BEGIN_NOTES
+    - Conferences
+#+END_NOTES
+
+
+* Why A Learning Team?
+
+** The learning experience can make or break a technology
+
+*** Much of the tech OSS Culture is "What's hot right now"
+
+#+REVEAL_HTML:<image src="images/so-hot.gif" style="height:400px;border-width:0;box-shadow:unset;">
+
+*** There are many "X vs Y vs Z!" posts
+#+REVEAL_HTML:<image src="images/vs.gif" style="height:400px;border-width:0;box-shadow:unset;">
+#+BEGIN_NOTES
+  - These takes typically rely solely on initial experiences, rarely get into issues when building an full stack production app.
+  - Having a great first experience is big
+#+END_NOTES
+
+*** Its hard to shed a stigma
+
+#+ATTR_REVEAL: :frag t
+#+BEGIN_QUOTE
+"Ember's hard to learn"
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag t
+#+BEGIN_QUOTE
+"Ember's slow"
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag t
+#+BEGIN_QUOTE
+"Ember's a dinosaur"
+#+END_QUOTE
+
+*** 
+:PROPERTIES:
+:reveal_background: images/busted.gif
+:END:
+
+
+* Advice For Teams
+
+** Where to Start
+
+*** API, Guides Content
+
+#+REVEAL_HTML:<img src="images/learn-page.png">
+#+BEGIN_NOTES
+- Tailor content to your consumers
+- Guides: What is Essential vs What is Possible
+- Keep things accurate, Up to date
+  - make learning materials a prereq of new releases
+#+END_NOTES
+
+*** Hosting
+#+REVEAL_HTML:<img src="images/sponsors.png">
+
+#+BEGIN_NOTES
+- Easy as Markdown files
+- Elaborate as hosted sites - many companies have OSS programs
+- A lot of options in between
+#+END_NOTES
+
+*** Identify Your Champions
+#+REVEAL_HTML:<img src="images/heat-harlem-shake.gif">
+
+#+BEGIN_NOTES
+- Who is consistent
+- A team member has
+  - Ownership in the technology/mission
+  - Makes your OSS Community healthy and welcoming
+- Don't be afraid to ask
+#+END_NOTES
+
+
+
+** Build your team by building a community
+
+#+BEGIN_NOTES
+- Make the contribution process encouraging
+  - Celebrate Publicly
+  - Avoid gatekeeping
+- Provide opportunities for many.  Some will stick.
+  - Issue development is super important
+- Come for the OSS contribs, stay for the community
+- Always be Recruiting
+  - People want to help
+- More core members can bring more contributors with a larger community footprint.
+  (insert diagram of core member's networks)
+#+END_NOTES
+
+*** Celebrate Publicly
+
+#+REVEAL_HTML:<img src="images/weber-tweet-2.png">
+
+*** Avoid Gatekeeping
+
+#+REVEAL_HTML:<img src="images/gatekeeper.gif">
+
+*** Provide Opportunities for Many
+#+REVEAL_HTML:<img src="images/hacktoberfest.png">
+
+#+ATTR_REVEAL: :frag t
+Some will stick
+
+*** Ask People to Come Along
+
+#+REVEAL_HTML:<img src="images/quest.png">
+
+*** The more people join, the faster it grows
+
+    #+REVEAL_HTML:<img src="images/social-network-graph.png">
+
+** Empower Leaders
+
+*** Ownership and Access
+#+REVEAL_HTML:<img src="images/team-access.png">
+
+#+BEGIN_NOTES
+- Find the right bar of trust
+- Be willing to let go of things
+- Be willing to spend time and mentor
+#+END_NOTES
+
+*** Support from the Top
+#+REVEAL_HTML:<img src="images/keynote.jpg">
+
+#+BEGIN_NOTES
+- Ember Releases with new features should require documentation with said feature
+- Still not doing this well
+#+END_NOTES
+
+*** Getting Community Feedback
+
+#+REVEAL_HTML:<img src="images/rfc-template.png" style="height:400px;">
+
+#+BEGIN_NOTES
+ - [[https://github.com/emberjs/rfcs][RFCs!]]
+ - Find a good venue for content discussion.
+   - Ember uses [[https://discuss.emberjs.com/c/learning][Discourse]]
+   - Opinion-based GH Issues tend to flame
+   - We tend to push constructive feedback threads towards forum
+#+END_NOTES
+
+** Mind your SEO
+
+#+REVEAL_HTML:<img src="images/google-results.png" style="height:400px;border-width:0;box-shadow:unset;">
+
+** Make Learning Accessible to All
+
+*** All Experiences
+#+REVEAL_HTML:<img src="images/super-rentals.png">
+
+#+BEGIN_NOTES
+ - [[https://github.com/emberjs/rfcs][RFCs!]]
+ - Find a good venue for content discussion.
+   - Ember uses [[https://discuss.emberjs.com/c/learning][Discourse]]
+   - Opinion-based GH Issues tend to flame
+   - We tend to push constructive feedback threads towards forum
+#+END_NOTES
+
+*** All Langauages/Cultures
+
+#+REVEAL_HTML:<img src="images/geography.png">
+
+*** All Abilities
+#+REVEAL_HTML:<img src="images/a11y-zoey.png">
+
+** Make All Things Open
+
+*** Public Meetings
+
+#+REVEAL_HTML:<image src="images/learning_team_2.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+*** Searchable discussions
+
+#+REVEAL_HTML:<image src="images/discord.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+*** RFC Process
+
+#+REVEAL_HTML:<image src="images/ember-rfcs.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+*** Trackable Work
+
+#+REVEAL_HTML:<image src="images/ember-core-notes.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+* Thanks!!!
+- Todd Jordan
+- @tddjordan
+- Pick up a "Shortest Ember Book" on your way out

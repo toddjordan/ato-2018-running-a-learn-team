@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Running an Effective Open Source Learning Team</title>
+<meta name="author" content="(Todd Jordan)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/solarized.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-orgea6a0b0">
+<h2 id="orgea6a0b0">Running an Effective Open Source Learning Team</h2>
+<h3> By Todd Jordan</h3><image src="images/teaching-tomster.png" style="height:200px;border-width:0;box-shadow:unset;">
+
+</section>
+</section>
+<section>
+<section id="slide-orge9d623d">
+<h2 id="orge9d623d">How I Got Here</h2>
+<image src="images/lts-tomster.png" style="height:300px;border-width:0;box-shadow:unset;">
+<image src="images/raleigh-tomster.png" style="height:300px;border-width:0;box-shadow:unset;">
+<image src="images/teaching-tomster.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+</section>
+</section>
+<section>
+<section id="slide-org4eb9a0c">
+<h3 id="org4eb9a0c"></h3>
+<image src="images/q2.jpg" style="height:300px;border-width:0;box-shadow:unset;">
+<blockquote nil>
+<p>
+Our mission is to build stronger communities by strengthening their financial institutions
+</p>
+</blockquote>
+<p>
+<a href="https://www.q2ebanking.com/careers">https://www.q2ebanking.com/careers</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org44cd2b8">
+<h2 id="org44cd2b8">So What's a Learn Team?</h2>
+<div class="outline-text-2" id="text-org44cd2b8">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org9e4c0a3">
+<h3 id="org9e4c0a3">Ember Learn Mission Statement</h3>
+<blockquote nil>
+<p>
+The mission of the Ember Learning Team is to empower
+Ember users to learn, build and teach. <br />
+<br />
+The team is responsible for keeping the guides and API documentation updated,
+and managing initiatives that support learning Ember.
+</p>
+</blockquote>
+
+</section>
+</section>
+<section>
+<section id="slide-orga765418">
+<h3 id="orga765418">Not Just a Docs Team</h3>
+<p>
+From the initial Ember Learn Team Charter: 
+</p>
+
+<blockquote nil>
+<p>
+Documentation is just one part of how new users learn to use Ember. People start learning the second they land on the website homepage, or when they see a presentation at their local user group.
+</p>
+</blockquote>
+<aside class="notes">
+<p>
+<a href="https://emberjs.com/blog/2016/05/19/introducing-subteams.html#toc_learning">https://emberjs.com/blog/2016/05/19/introducing-subteams.html#toc_learning</a>
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org0a46d2d">
+<h3 id="org0a46d2d">Holistic Learning</h3>
+<blockquote nil>
+<p>
+&#x2026;We want to make holistic learning a central part of Ember&#x2026; this means thinking about how members of the community interact, how they get help, and how we introduce them to new features&#x2026;
+</p>
+</blockquote>
+
+</section>
+</section>
+<section>
+<section id="slide-org3f5466d">
+<h3 id="org3f5466d">A Learn Team Walks Alongside</h3>
+<image src="images/janet.gif" style="height:400px;border-width:0;box-shadow:unset;">
+
+</section>
+</section>
+<section>
+<section id="slide-orgade4dbd" data-background="./images/funnel.png" data-background-transition="slide">
+<h3 id="orgade4dbd"></h3>
+<aside class="notes">
+<ul>
+<li>Learners</li>
+<li>Practitioners</li>
+<li>New Contributors</li>
+<li>Regular Contributors</li>
+<li>Core Teams</li>
+
+</ul>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgfaac52f">
+<h3 id="orgfaac52f">A Learn Team Evolves</h3>
+<div class="outline-text-3" id="text-orgfaac52f">
+</div>
+</section>
+<section id="slide-org097429f" data-background="./images/team-core.png" data-background-transition="slide">
+<h4 id="org097429f"></h4>
+<aside class="notes">
+<p>
+Core team worked great, but team members tended to be focused on new features and development on the core library.
+One of the core members put a ton of work into documentation.  
+As the project grew and as more emphasis was put on documentation, a more formal group was needed.
+</p>
+
+</aside>
+</section>
+<section id="slide-org84fc091" data-background="./images/team-subteam.png" data-background-transition="slide">
+<h4 id="org84fc091"></h4>
+<aside class="notes">
+<p>
+So in 2016 we announced "sub teams", additional "official teams" to be responsible for development of core parts of ember
+outside is main architecture.
+</p>
+<ul>
+<li>CLI</li>
+<li>Data</li>
+<li>Learn</li>
+
+</ul>
+
+<p>
+See <a href="https://emberjs.com/blog/2016/05/19/introducing-subteams.html">https://emberjs.com/blog/2016/05/19/introducing-subteams.html</a>
+</p>
+
+<p>
+"While the Ember CLI and Ember Data subteams should be self-explanatory, this one is the newest and may require some explanation.
+We intentionally did not call this subteam Documentation, because documentation is just one part of how new users learn to use Ember. People start learning the second they land on the website homepage, or when they see a presentation at their local user group.
+We want to make holistic learning a central part of Ember. In addition to good guides and API documentation, this means thinking about how members of the community interact, how they get help, and how we introduce them to new features added via the RFC process.
+The Learning Subteam is responsible for the website, the guides, the API docs and making sure the Core Team is aware of common pitfalls people hit, like confusing error messages or APIs. We will take this information and feed it back into the framework itself.
+The best documentation is the documentation you never have to write. By reducing complexity, making errors clearer, and smoothing the learning curve, we can help Ember reach an entirely new audience."
+</p>
+
+</aside>
+</section>
+<section id="slide-org5f21ed9" data-background="./images/team-multicore.png" data-background-transition="slide">
+<h4 id="org5f21ed9"></h4>
+<aside class="notes">
+<p>
+<a href="https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html">https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html</a>
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb4bfc00">
+<h3 id="orgb4bfc00">A Learn Team is a Community</h3>
+<div class="outline-text-3" id="text-orgb4bfc00">
+</div>
+</section>
+<section id="slide-org5d43ad0" data-background="./images/community-venn.png" data-background-transition="slide">
+<h4 id="org5d43ad0"></h4>
+
+</section>
+<section id="slide-org4dce128">
+<h4 id="org4dce128">Chat</h4>
+<img src="images/discord.png">
+<aside class="notes">
+<ul>
+<li>dev-ember-learning(discord)</li>
+<li>people can ask questions/report issues about documentation</li>
+<li>team can publicize contrib opportunities</li>
+<li>learn team announcements</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-org042d731">
+<h4 id="org042d731">Regular Contributors</h4>
+<img src="images/ember-times.png">
+<aside class="notes">
+<ul>
+<li>Newsletter</li>
+<li>Project Owners</li>
+<li>Strike Teams</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-org1b44218">
+<h4 id="org1b44218">Weekly Learn Team Meetings</h4>
+<image src="images/learning_team_2.png">
+<aside class="notes">
+<ul>
+<li>Open to the public</li>
+<li>Notes Taken</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-orgba5c376">
+<h4 id="orgba5c376">Team Face to Face</h4>
+<image src="images/learning_team.jpg">
+
+<aside class="notes">
+<ul>
+<li>Conferences</li>
+
+</ul>
+
+</aside>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org4bb5e75">
+<h2 id="org4bb5e75">Why A Learning Team?</h2>
+<div class="outline-text-2" id="text-org4bb5e75">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org687dbcf">
+<h3 id="org687dbcf">The learning experience can make or break a technology</h3>
+<div class="outline-text-3" id="text-org687dbcf">
+</div>
+</section>
+<section id="slide-orgf0d15d6">
+<h4 id="orgf0d15d6">Much of the tech OSS Culture is "What's hot right now"</h4>
+<image src="images/so-hot.gif" style="height:400px;border-width:0;box-shadow:unset;">
+
+</section>
+<section id="slide-org63c7843">
+<h4 id="org63c7843">There are many "X vs Y vs Z!" posts</h4>
+<image src="images/vs.gif" style="height:400px;border-width:0;box-shadow:unset;">
+<aside class="notes">
+<ul>
+<li>These takes typically rely solely on initial experiences, rarely get into issues when building an full stack production app.</li>
+<li>Having a great first experience is big</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-orgc6ccb9e">
+<h4 id="orgc6ccb9e">Its hard to shed a stigma</h4>
+<blockquote  class="fragment">
+<p>
+"Ember's hard to learn"
+</p>
+</blockquote>
+
+<blockquote  class="fragment">
+<p>
+"Ember's slow"
+</p>
+</blockquote>
+
+<blockquote  class="fragment">
+<p>
+"Ember's a dinosaur"
+</p>
+</blockquote>
+
+</section>
+<section id="slide-org510105f" data-background="images/busted.gif">
+<h4 id="org510105f"></h4>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org6d4c5f7">
+<h2 id="org6d4c5f7">Advice For Teams</h2>
+<div class="outline-text-2" id="text-org6d4c5f7">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org2a8727d">
+<h3 id="org2a8727d">Where to Start</h3>
+<div class="outline-text-3" id="text-org2a8727d">
+</div>
+</section>
+<section id="slide-orgdd8e6a7">
+<h4 id="orgdd8e6a7">API, Guides Content</h4>
+<img src="images/learn-page.png">
+<aside class="notes">
+<ul>
+<li>Tailor content to your consumers</li>
+<li>Guides: What is Essential vs What is Possible</li>
+<li>Keep things accurate, Up to date
+<ul>
+<li>make learning materials a prereq of new releases</li>
+
+</ul></li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-orge868be3">
+<h4 id="orge868be3">Hosting</h4>
+<img src="images/sponsors.png">
+
+<aside class="notes">
+<ul>
+<li>Easy as Markdown files</li>
+<li>Elaborate as hosted sites - many companies have OSS programs</li>
+<li>A lot of options in between</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-orgb30a2dd">
+<h4 id="orgb30a2dd">Identify Your Champions</h4>
+<img src="images/heat-harlem-shake.gif">
+
+<aside class="notes">
+<ul>
+<li>Who is consistent</li>
+<li>A team member has
+<ul>
+<li>Ownership in the technology/mission</li>
+<li>Makes your OSS Community healthy and welcoming</li>
+
+</ul></li>
+<li>Don't be afraid to ask</li>
+
+</ul>
+
+</aside>
+
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgaf50bab">
+<h3 id="orgaf50bab">Build your team by building a community</h3>
+<aside class="notes">
+<ul>
+<li>Make the contribution process encouraging
+<ul>
+<li>Celebrate Publicly</li>
+<li>Avoid gatekeeping</li>
+
+</ul></li>
+<li>Provide opportunities for many.  Some will stick.
+<ul>
+<li>Issue development is super important</li>
+
+</ul></li>
+<li>Come for the OSS contribs, stay for the community</li>
+<li>Always be Recruiting
+<ul>
+<li>People want to help</li>
+
+</ul></li>
+<li>More core members can bring more contributors with a larger community footprint.
+(insert diagram of core member's networks)</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-orgf72f1e9">
+<h4 id="orgf72f1e9">Celebrate Publicly</h4>
+<img src="images/weber-tweet-2.png">
+
+</section>
+<section id="slide-org7169b72">
+<h4 id="org7169b72">Avoid Gatekeeping</h4>
+<img src="images/gatekeeper.gif">
+
+</section>
+<section id="slide-orgf87b059">
+<h4 id="orgf87b059">Provide Opportunities for Many</h4>
+<img src="images/hacktoberfest.png">
+
+<p class="fragment">
+Some will stick
+</p>
+
+</section>
+<section id="slide-orgad1a4ef">
+<h4 id="orgad1a4ef">Ask People to Come Along</h4>
+<img src="images/quest.png">
+
+</section>
+<section id="slide-org9571952">
+<h4 id="org9571952">The more people join, the faster it grows</h4>
+<img src="images/social-network-graph.png">
+
+</section>
+</section>
+<section>
+<section id="slide-orga266a5d">
+<h3 id="orga266a5d">Empower Leaders</h3>
+<div class="outline-text-3" id="text-orga266a5d">
+</div>
+</section>
+<section id="slide-orgbfe55dd">
+<h4 id="orgbfe55dd">Ownership and Access</h4>
+<img src="images/team-access.png">
+
+<aside class="notes">
+<ul>
+<li>Find the right bar of trust</li>
+<li>Be willing to let go of things</li>
+<li>Be willing to spend time and mentor</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-org2970522">
+<h4 id="org2970522">Support from the Top</h4>
+<img src="images/keynote.jpg">
+
+<aside class="notes">
+<ul>
+<li>Ember Releases with new features should require documentation with said feature</li>
+<li>Still not doing this well</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-org3786a45">
+<h4 id="org3786a45">Getting Community Feedback</h4>
+<img src="images/rfc-template.png" style="height:400px;">
+
+<aside class="notes">
+<ul>
+<li><a href="https://github.com/emberjs/rfcs">RFCs!</a></li>
+<li>Find a good venue for content discussion.
+<ul>
+<li>Ember uses <a href="https://discuss.emberjs.com/c/learning">Discourse</a></li>
+<li>Opinion-based GH Issues tend to flame</li>
+<li>We tend to push constructive feedback threads towards forum</li>
+
+</ul></li>
+
+</ul>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org84aa128">
+<h3 id="org84aa128">Mind your SEO</h3>
+<img src="images/google-results.png" style="height:400px;border-width:0;box-shadow:unset;">
+
+</section>
+</section>
+<section>
+<section id="slide-org272f356">
+<h3 id="org272f356">Make Learning Accessible to All</h3>
+<div class="outline-text-3" id="text-org272f356">
+</div>
+</section>
+<section id="slide-orge38b75f">
+<h4 id="orge38b75f">All Experiences</h4>
+<img src="images/super-rentals.png">
+
+<aside class="notes">
+<ul>
+<li><a href="https://github.com/emberjs/rfcs">RFCs!</a></li>
+<li>Find a good venue for content discussion.
+<ul>
+<li>Ember uses <a href="https://discuss.emberjs.com/c/learning">Discourse</a></li>
+<li>Opinion-based GH Issues tend to flame</li>
+<li>We tend to push constructive feedback threads towards forum</li>
+
+</ul></li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-org442cd67">
+<h4 id="org442cd67">All Langauages/Cultures</h4>
+<img src="images/geography.png">
+
+</section>
+<section id="slide-org46da94e">
+<h4 id="org46da94e">All Abilities</h4>
+<img src="images/a11y-zoey.png">
+
+</section>
+</section>
+<section>
+<section id="slide-org789bb14">
+<h3 id="org789bb14">Make All Things Open</h3>
+<div class="outline-text-3" id="text-org789bb14">
+</div>
+</section>
+<section id="slide-org74d612c">
+<h4 id="org74d612c">Public Meetings</h4>
+<image src="images/learning_team_2.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+</section>
+<section id="slide-orgb4dda86">
+<h4 id="orgb4dda86">Searchable discussions</h4>
+<image src="images/discord.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+</section>
+<section id="slide-orgd2e7ea0">
+<h4 id="orgd2e7ea0">RFC Process</h4>
+<image src="images/ember-rfcs.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+</section>
+<section id="slide-org98594a6">
+<h4 id="org98594a6">Trackable Work</h4>
+<image src="images/ember-core-notes.png" style="height:300px;border-width:0;box-shadow:unset;">
+
+</section>
+</section>
+<section>
+<section id="slide-orgc23b3db">
+<h2 id="orgc23b3db">Thanks!!!</h2>
+<ul>
+<li>Todd Jordan</li>
+<li>@tddjordan</li>
+<li>Pick up a "Shortest Ember Book" on your way out</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'true',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
