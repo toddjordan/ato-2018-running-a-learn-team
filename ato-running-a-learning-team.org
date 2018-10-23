@@ -28,11 +28,7 @@ https://www.q2ebanking.com/careers
 
 #+BEGIN_QUOTE
 The mission of the Ember Learning Team is to empower
-Ember users to learn, build and teach. \\
-\\
-The team is responsible for keeping the guides and API documentation updated,
-and managing initiatives that support learning Ember.
-
+Ember users to learn, build and teach.
 #+END_QUOTE
 
 ** Not Just a Docs Team
