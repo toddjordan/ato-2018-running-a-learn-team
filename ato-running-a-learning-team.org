@@ -2,7 +2,7 @@
 #+AUTHOR: Todd Jordan
 #+DATE: <2018-10-24 Wed>
 #+REVEAL_HLEVEL: 2
-#+REVEAL_THEME: solarized
+#+REVEAL_THEME: simple
 #+OPTIONS: num:nil toc:nil 
 #+OPTIONS: reveal_title_slide:nil reveal_slide_number:true reveal_history:true
 
