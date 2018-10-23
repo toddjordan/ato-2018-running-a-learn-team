@@ -141,6 +141,7 @@ https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
 #+BEGIN_NOTES
     - Open to the public
     - Notes Taken
+    - Here's me saying something that's causing half the group to worry, other half to dismay
 #+END_NOTES
       
 *** Team Face to Face
@@ -148,6 +149,7 @@ https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
 
 #+BEGIN_NOTES
     - Conferences
+    - This is the Learn Team (and friends) eating breakfast together at EmberConf
 #+END_NOTES
 
 
@@ -158,6 +160,10 @@ https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
 *** Much of the tech OSS Culture is "What's hot right now"
 
 #+REVEAL_HTML:<image src="images/so-hot.gif" style="height:400px;border-width:0;box-shadow:unset;">
+#+BEGIN_NOTES
+- First impressions of things are important.
+- We fret about those first impressions.
+#+END_NOTES
 
 *** There are many "X vs Y vs Z!" posts
 #+REVEAL_HTML:<image src="images/vs.gif" style="height:400px;border-width:0;box-shadow:unset;">
@@ -188,6 +194,11 @@ https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
 :reveal_background: images/busted.gif
 :END:
 
+#+BEGIN_NOTES
+  - At times these might have been valid in one way or another.  
+  - We have a committed set of contributors and the codebase continues to improve and be current.
+  - Typescript, decorators, classes, angle components are all doable in today's ember.
+#+END_NOTES
 
 * Advice For Teams
 
@@ -227,6 +238,10 @@ https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
 
 ** Build your team by building a community
 
+
+*** Celebrate Publicly
+
+#+REVEAL_HTML:<img src="images/weber-tweet-2.png">
 #+BEGIN_NOTES
 - Make the contribution process encouraging
   - Celebrate Publicly
@@ -240,13 +255,14 @@ https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
   (insert diagram of core member's networks)
 #+END_NOTES
 
-*** Celebrate Publicly
-
-#+REVEAL_HTML:<img src="images/weber-tweet-2.png">
-
 *** Avoid Gatekeeping
 
 #+REVEAL_HTML:<img src="images/gatekeeper.gif">
+
+#+BEGIN_NOTES
+- "You aren't a real programmer unless..."
+- Goes back to our mission.
+#+END_NOTES
 
 *** Provide Opportunities for Many
 #+REVEAL_HTML:<img src="images/hacktoberfest.png">
@@ -254,9 +270,23 @@ https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html
 #+ATTR_REVEAL: :frag t
 Some will stick
 
+#+BEGIN_NOTES
+- Provide opportunities for many.  Some will stick.
+  - Leverage things like Hacktoberfest
+  - Issue development is super important
+  - Issue tags
+  - Help Wanted
+#+END_NOTES
+
 *** Ask People to Come Along
 
 #+REVEAL_HTML:<img src="images/quest.png">
+
+#+BEGIN_NOTES
+- Come for the OSS contribs, stay for the community
+- Always be Recruiting
+  - People want to help
+#+END_NOTES
 
 *** The more people join, the faster it grows
 
@@ -297,17 +327,20 @@ Some will stick
 
 #+REVEAL_HTML:<img src="images/google-results.png" style="height:400px;border-width:0;box-shadow:unset;">
 
+#+BEGIN_NOTES
+- China API story
+#+END_NOTES
+
 ** Make Learning Accessible to All
 
 *** All Experiences
 #+REVEAL_HTML:<img src="images/super-rentals.png">
 
 #+BEGIN_NOTES
- - [[https://github.com/emberjs/rfcs][RFCs!]]
- - Find a good venue for content discussion.
-   - Ember uses [[https://discuss.emberjs.com/c/learning][Discourse]]
-   - Opinion-based GH Issues tend to flame
-   - We tend to push constructive feedback threads towards forum
+- Lessons from the tutorial
+  - Written from the perspective of coming from another SPA
+  - Got feedback that new to SPA devs were tripping up on some things.
+  - Incorporated updates, and started on an "intermediate" tutorial
 #+END_NOTES
 
 *** All Langauages/Cultures
@@ -326,6 +359,10 @@ Some will stick
 *** Searchable discussions
 
 #+REVEAL_HTML:<image src="images/discord.png" style="height:300px;border-width:0;box-shadow:unset;">
+#+BEGIN_NOTES
+- We used to use slack, conversations lost.
+#+END_NOTES
+
 
 *** RFC Process
 
